@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Rubik:wght@300;400&display=swap');
+@import 'variables';
+@import 'quote-box';
+@import 'buttons';
+@import 'media-queries';
+
+/* MAIN */
+* { margin: 0; }
+
+body {
+  font-family: $body-font-family;
+  font-size: $main-font-size;
+}
+
+#main-container, #buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+#main-container {
+  height: 100vh;
+  justify-content: center;
+}

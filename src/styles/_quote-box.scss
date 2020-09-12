@@ -1,0 +1,30 @@
+@import 'variables';
+
+/* QUOTE BOX */
+#quote-box, #text-container {
+  display: flex;
+  flex-direction: column;
+} 
+
+#text-container { justify-content: flex-start; }
+
+#buttons-container { justify-content: space-between; }
+
+#quote-box {
+  width: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 2rem 3.5rem;
+  background: $light-color;
+  border-radius: 5px;
+}
+
+#text {
+  font-size: $quote-font-size;
+  margin-bottom: 1rem;
+}
+
+#author {
+  text-align: right;
+  margin-bottom: 1.5rem;
+}

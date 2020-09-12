@@ -1,0 +1,7 @@
+@import 'variables';
+
+/* MEDIA QUERIES */
+@media (max-width: 750px) {
+  #text { font-size: $quote-font-size-sm-screens; }
+  #quote-box { padding: 1rem 2rem; }
+}
