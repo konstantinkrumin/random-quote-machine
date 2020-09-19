@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 
-import Context from "../../helpers/context";
+import Context from '../../helpers/context';
 
 export default function TweetShareButton() {
   const { color, tweetIntent, shareTweet, FontAwesomeIcon } = useContext(
@@ -11,11 +11,12 @@ export default function TweetShareButton() {
     <a
       href={tweetIntent}
       target="_blank"
+      rel="noopener noreferrer"
       id="tweet-quote"
       onClick={shareTweet}
       style={{ color: color }}
     >
-      <FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" />
+      <FontAwesomeIcon icon={['fab', 'twitter-square']} size="3x" />
     </a>
   );
 }
